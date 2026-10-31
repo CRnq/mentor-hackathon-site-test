@@ -1,0 +1,16 @@
+/* Hallmark · pre-emit critique: P4 H4 E4 S4 R4 V4 */
+:root {
+  --color-paper: #F6F5EF;
+  --color-ink: #111318;
+  --color-accent: #4EC5E5;
+  --color-pale: #D3EDF3;
+  --color-rule: color-mix(in srgb, var(--color-ink) 22%, transparent);
+  --font-display: 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
+  --font-body: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', sans-serif;
+  --font-mono: 'SFMono-Regular', Consolas, monospace;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 48px;
+  --ease-out: cubic-bezier(.16, 1, .3, 1);
+}
