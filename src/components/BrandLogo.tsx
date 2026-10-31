@@ -8,7 +8,7 @@ export function BrandLogo({
   return (
     <img
       className={className}
-      src="/logo_block_color.svg"
+      src={`${import.meta.env.BASE_URL}logo_block_color.svg`}
       width="218"
       height="219"
       alt={decorative ? "" : "全国メンターハッカソン"}

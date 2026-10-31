@@ -187,7 +187,7 @@ export function Hero() {
               <a href="#about">ABOUT</a>
               <a href="#rules">RULES</a>
               <a href="#schedule">SCHEDULE</a>
-              <a href="/results">RESULTS</a>
+              <a href={`${import.meta.env.BASE_URL}results`}>RESULTS</a>
             </nav>
             <a className="entry-button" href="#about">
               ENTRY <span aria-hidden="true">↗</span>

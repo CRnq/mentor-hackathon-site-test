@@ -220,7 +220,7 @@ export function AsciiLogo({
     >
       <img
         ref={source}
-        src="/logo_block_color.svg"
+        src={`${import.meta.env.BASE_URL}logo_block_color.svg`}
         alt="全国メンターハッカソン — ASCII立体ロゴ"
         className="ascii-logo-source"
       />
